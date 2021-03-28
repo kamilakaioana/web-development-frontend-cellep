@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+  <body>
+    <!-- <script src="script.js"></script> -->
+  <h1 style="color:green;">Output no Javascript</h1>
+  <p id="demo"></p>
+  <p id="Teste">Teste</p>
+  <p id="Teste2">Teste2</p>
+    <script>
+      //formas de saída de dados no Javascript
+      //Com console.log
+      //Com innerHTML
+      //Com document.write()
+      //Com window.alert()
+
+      //Com console.log()
+     /* 
+      console.log("JS no Browser")
+
+      var resultado = (1000/20) + (3*50)
+      console.log(resultado)
+      console.log(`O resultado da conta é ${resultado}`)
+     */
+
+    ///Com innerHTML
+
+  // document.getElementById("demo").innerHTML = 100 +150
+
+  document.getElementById("demo").innerHTML = "Estou com uma fome de dinossauro"
+
+  //comparando innerHTML com innerText
+  document.getElementById("Teste").innerText = '<h1> David</h1>'
+
+  document.getElementById("Teste2").innerHTML = '<h1 style="color:red;"> David</h1>'
+
+  // Com document.write()
+  document.write("Vocês vã o ficar montados na grana como desenvolvedores!")
+
+  //com window.alert()
+  window.alert("Hoje é um dia legal para aprender JS")
+  window.alert("também é legal para ir na praia, mas não posso")
+    </script>
+  </body>
+</html>
